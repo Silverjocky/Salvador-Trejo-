@@ -1,0 +1,588 @@
+/*Selectores*/
+/* 
+    1.- Por clase       .clase
+    2.- Por elemento    p div
+    3.- Por id          #boton-default
+*/
+
+.boton{
+    
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 110px;
+    text-align: center;
+    color: white;
+}
+
+.default{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.default:hover{
+    background-color: rgb(226, 230, 234);
+}
+
+
+.primary{
+    background-color: #007bf0;
+    border-color: #007bf0;
+}
+
+.primary:hover{
+    background-color: #0069D9;
+}
+
+.secondary{
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+}
+.secondary:hover{
+    background-color: rgb(90, 98, 104);
+}
+
+.success{
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.success:hover{
+    background-color: #218838;
+}
+
+.info{
+    background-color: rgb(26, 162, 184);
+    border-color: rgb(26, 162, 184);
+}
+
+.info:hover{
+    background-color: rgb(19, 132, 150);
+}
+
+.danger{
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
+
+.danger:hover{
+    background-color: rgb(200, 35, 51);
+}
+
+.warning{
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(255, 193, 7);
+    color: black;
+}
+
+.warning:hover{
+    background-color:rgb(224, 168, 0);
+}
+
+.light{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.light:hover{
+    background-color: rgb(226, 230, 234);
+    
+}
+
+.dark{
+    background-color: rgb(52, 58, 64);
+    border-color: rgb(52, 58, 64);
+}   
+
+.dark:hover{
+    background-color: rgb(35, 39, 43);
+    
+}
+
+.boton2{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    color: white;
+   
+}
+
+.default2{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.default2:hover{
+    background-color: rgb(226, 230, 234);
+}
+
+.primary2{
+    background-color: #007bf0;
+    border-color: #007bf0;
+}
+
+.primary2:hover{
+    background-color: #0069D9;
+}
+
+.secondary2{
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+}
+.secondary2:hover{
+    background-color: rgb(90, 98, 104);
+}
+
+.success2{
+    background-color: #28A745;
+    border-color: #28A745;
+}
+
+.success2:hover{
+    background-color: #218838;
+}
+
+.info2{
+    background-color: rgb(26, 162, 184);
+    border-color: rgb(26, 162, 184);
+}
+
+.info2:hover{
+    background-color: rgb(19, 132, 150);
+}
+
+.danger2{
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
+
+.danger2:hover{
+    background-color: rgb(200, 35, 51);
+}
+
+.warning2{
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(255, 193, 7);
+    color: black;
+}
+
+.warning2:hover{
+    background-color:rgb(224, 168, 0);
+}
+
+.light2{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.light2:hover{
+    background-color: rgb(226, 230, 234);
+    
+}
+
+.dark2{
+    background-color: rgb(52, 58, 64);
+    border-color: rgb(52, 58, 64);
+}   
+
+.dark2:hover{
+    background-color: rgb(35, 39, 43);
+    
+}
+
+.boton3{
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 110px;
+    height: 20px;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+
+.default3{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.default3:hover{
+    background-color: rgb(226, 230, 234);
+}
+
+.primary3{
+    background-color: #007bf0;
+    border-color: #007bf0;
+}
+
+.primary3:hover{
+    background-color: #0069D9;
+}
+
+.secondary3{
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+}
+.secondary3:hover{
+    background-color: rgb(90, 98, 104);
+}
+
+.success3{
+    background-color: #28A745;
+    border-color: #28A745;
+}
+
+.success3:hover{
+    background-color: #218838;
+}
+
+.info3{
+    background-color: rgb(26, 162, 184);
+    border-color: rgb(26, 162, 184);
+}
+
+.info3:hover{
+    background-color: rgb(19, 132, 150);
+}
+
+.danger3{
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
+
+.danger3:hover{
+    background-color: rgb(200, 35, 51);
+}
+
+.warning3{
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(255, 193, 7);
+    color: black;
+}
+
+.warning3:hover{
+    background-color:rgb(224, 168, 0);
+}
+
+.light3{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.light3:hover{
+    background-color: rgb(226, 230, 234);
+    
+}
+
+.dark3{
+    background-color: rgb(52, 58, 64);
+    border-color: rgb(52, 58, 64);
+}   
+
+.dark3:hover{
+    background-color: rgb(35, 39, 43);
+    
+}
+
+.boton4{
+    
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    font-size: x-small;
+    color: white;
+}
+
+.default4{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.default4:hover{
+    background-color: rgb(226, 230, 234);
+}
+
+.primary4{
+    background-color: #007bf0;
+    border-color: #007bf0;
+}
+
+.primary4:hover{
+    background-color: #0069D9;
+}
+
+.secondary4{
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+}
+.secondary4:hover{
+    background-color: rgb(90, 98, 104);
+}
+
+.success4{
+    background-color: #28A745;
+    border-color: #28A745;
+}
+
+.success4:hover{
+    background-color: #218838;
+}
+
+.info4{
+    background-color: rgb(26, 162, 184);
+    border-color: rgb(26, 162, 184);
+}
+
+.info4:hover{
+    background-color: rgb(19, 132, 150);
+}
+
+.danger4{
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
+
+.danger4:hover{
+    background-color: rgb(200, 35, 51);
+}
+
+.warning4{
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(255, 193, 7);
+    color: black;
+}
+
+.warning4:hover{
+    background-color:rgb(224, 168, 0);
+}
+
+.light4{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.light4:hover{
+    background-color: rgb(226, 230, 234);
+    
+}
+
+.dark4{
+    background-color: rgb(52, 58, 64);
+    border-color: rgb(52, 58, 64);
+}   
+
+.dark4:hover{
+    background-color: rgb(35, 39, 43);
+    
+}
+
+.boton5{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+.default5{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.default5:hover{
+    background-color: rgb(226, 230, 234);
+}
+
+.primary5{
+    background-color: #007bf0;
+    border-color: #007bf0;
+}
+
+.primary5:hover{
+    background-color: #0069D9;
+}
+
+.secondary5{
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+}
+.secondary5:hover{
+    background-color: rgb(90, 98, 104);
+}
+
+.success5{
+    background-color: #28A745;
+    border-color: #28A745;
+}
+
+.success5:hover{
+    background-color: #218838;
+}
+
+.info5{
+    background-color: rgb(26, 162, 184);
+    border-color: rgb(26, 162, 184);
+}
+
+.info5:hover{
+    background-color: rgb(19, 132, 150);
+}
+
+.danger5{
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
+
+.danger5:hover{
+    background-color: rgb(200, 35, 51);
+}
+
+.warning5{
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(255, 193, 7);
+    color: black;
+}
+
+.warning5:hover{
+    background-color:rgb(224, 168, 0);
+}
+
+.light5{
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.light5:hover{
+    background-color: rgb(226, 230, 234);
+    
+}
+
+.dark5{
+    background-color: rgb(52, 58, 64);
+    border-color: rgb(52, 58, 64);
+}   
+
+.dark5:hover{
+    background-color: rgb(35, 39, 43);
+    
+}
+
+.boton6{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 110px;
+    text-align: center;
+    opacity: 50%;
+    color: white;
+}
+
+.default6{
+    cursor: not-allowed;
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+.primary6{
+    cursor: not-allowed;
+    background-color: #007bf0;
+    border-color: #007bf0;
+}
+
+
+.secondary6{
+    cursor: not-allowed;
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+}
+
+
+.success6{
+    cursor: not-allowed;
+    background-color: #28A745;
+    border-color: #28A745;
+}
+
+
+.info6{
+    cursor: not-allowed;
+    background-color: rgb(26, 162, 184);
+    border-color: rgb(26, 162, 184);
+}
+
+
+.danger6{
+    cursor: not-allowed;
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
+
+
+.warning6{
+    cursor: not-allowed;
+    background-color: rgb(255, 193, 7);
+    border-color: rgb(255, 193, 7);
+    color: black;
+}
+
+
+.light6{
+    cursor: not-allowed;
+    background-color: rgb(248, 249, 250);
+    border-color: rgb(248, 249, 250);
+    color: black;
+}
+
+
+.dark6{
+    cursor: not-allowed;
+    background-color: rgb(52, 58, 64);
+    border-color: rgb(52, 58, 64);
+}   
