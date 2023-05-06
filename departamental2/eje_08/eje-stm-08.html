@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 08 - Formularios con Flexbox</title>
+    <link rel="stylesheet" href="eje-stm-08.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/departamental2/index.html">Regresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="div-container">
+                <div id="div-image">
+                    <img src="../eje_08/audifonos-ok.png">
+                </div>
+                <div id="div-form">
+                    <h1>Detalles de pago</h1>
+                    <form action="">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Digite su nombre"><span class="barra"></span>
+                        <label for="numero-tarjeta">Numero de tarjeta</label>
+                        <input type="text" id="numero-tarjeta" placeholder="Sigite su numero de tarjeta"><span class="barra"></span>
+                        <label for="año">Fecha de Vencimiento</label>
+                        <input type="text" id="mes" placeholder="MM">
+                        <input type="text" id="anio" placeholder="YY">
+                        <label for="cvc">CVC</label>
+                        <input type="text" id="cvc" placeholder="123">
+                        <input type="checkbox" checked>
+                        <span>Guardar mi tarjeta para compras futuras</span>
+                        <input type="submit" id="boton-pagar" value="PAGAR AHORA">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
